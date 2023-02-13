@@ -1,1 +1,115 @@
-Merhaba Dunya!
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+    <h1 style="background-color:powderblue;text-align:center;">This is a heading</h1>
+    <p style="background-color:tomato;font-size:160%;text-align:center;"><i>This is a paragraph.</i></p>
+    <style>
+        a:link {
+          color: green;
+          background-color: transparent;
+          text-decoration: none;
+        }
+        a:visited {
+          color: rgb(63, 158, 93);
+          background-color: transparent;
+          text-decoration: none;
+        }
+        a:hover {
+          color: red;
+          background-color: transparent;
+          text-decoration: underline;
+        }
+        a:active {
+          color: yellow;
+          background-color: transparent;
+          text-decoration: underline;
+        }
+        </style>
+
+<a href="https://www.w3schools.com/html/">Visit our HTML tutorial</a>
+
+<p>The HTML address element defines contact information (author/owner) of a document or article.</p>
+<p>This is an inline span <span style="border: 1px dotted black;color:blue;font-weight:bold;"><i> Hello World </i></span> element inside a paragraph.</p>
+<address style="color:dodgerblue;">
+
+Written by Onder Yurdaer.<br> 
+Visit us at:<br>
+https://www.onderweb.com<br>
+древ. лихун, ул. малодожны, д.77<br>
+Калуга-Руссия
+</address>
+<h1 id="myHeader">Hello World!</h1>
+<button onclick="displayResult()">Change text</button>
+
+<script>
+function displayResult() {
+  document.getElementById("myHeader").innerHTML = "Have a nice day!";
+}
+</script>
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="demo"></p>
+<iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+</iframe>
+
+
+<p>The HTML cite element defines the title of a work.</p>
+<p>Browsers usually display cite elements in italic.</p>
+<blockquote>
+<img  src="img_the_scream.jpg"  alt="The Scream" 
+width="250" height="250">
+<p><cite style="background-color: brown;color:gold;">The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+</blockquote>
+<br>
+<img src="smiley.gif" alt="Smiley face" style="float:right; width:55px;height:55px;">
+</br>
+<img src="programming.gif" alt="Computer man" style="float:center; width:48px;height:48px;">
+<style>
+    table, th, td {
+
+        border-style: groove; 
+        border-color: #adb5cc;
+       border-radius: 10px;     
+    }
+    th, td {
+        padding-top: 5px;
+        padding-bottom: 10px;
+        padding-left: px;
+        padding-right: 5px;
+    }
+    tr:nth-child(even) {
+  background-color: #d3f19b;
+    }
+    </style>
+
+     <table style="width:50% ; background-color: #cde9e9;">
+    <tr>
+      <th>Firstname</th>
+      <th>Lastname</th> 
+      <th>Age</th>
+    </tr>
+    <tr>
+      <td>Jill</td>
+      <td>Smith</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>Eve</td>
+      <td>Jackson</td>
+      <td>94</td>
+    </tr>
+    <tr>
+      <td>John</td>
+      <td>Doe</td>
+      <td>80</td>
+    </tr>
+  </table>
+
+</body>
+</html>
